@@ -1,0 +1,119 @@
+.navbar{
+  height: 10rem;
+ text-align: left;
+ padding-top: 1%;
+ background-color: #E53935;
+ color: white;
+}
+.join{
+   margin-top:2% ;
+   background-color:#212121;
+}
+#players{
+  position: relative;
+  left:10%
+}
+#sh{
+   font-size:3rem;
+   color: white;
+}
+#libboard{
+  width:60%;
+  height:50%;
+}
+#fashboard{
+  width:60%;
+  height:50%;
+
+}
+#libcardpile{
+width:10%;
+height:5%;
+}
+#fashcardpile{
+width:10%;
+height:5%;
+}
+#libcard1{
+width:8%;
+height:3%;
+position: relative;
+left: -62%;
+display:none;
+}
+#libcard2{
+width:8%;
+height:3%;
+position: relative;
+left: -62%;
+display:none;
+}
+#libcard3{
+width:8%;
+height:3%;
+position: relative;
+left: -61%;
+display:none;
+}
+#libcard4{
+width:8%;
+height:3%;
+position: relative;
+left: 5rem;
+top: -19rem;
+left: 35%;
+display:none;
+}
+#libcard5{
+width:8%;
+height:3%;
+position: relative;
+top: -19rem;
+left: 35.5%;
+display:none;
+}
+#fashcard1{
+width:8%;
+height:3%;
+position: relative;
+left: -66.5%;
+display:none;
+}
+#fashcard2{
+width:8%;
+height:3%;
+position: relative;
+left: -66%;
+display:none;
+}
+#fashcard3{
+width:8%;
+height:3%;
+position: relative;
+left: -65.5%;
+display:none;
+}
+#fashcard4{
+width:8%;
+height:3%;
+position: relative;
+top: -19rem;
+left: 30.5%;
+display:none;
+}
+#fashcard5{
+width:8%;
+height:3%;
+position: relative;
+top: -19rem;
+left: 31%;
+display:none;
+}
+#fashcard6{
+width:8%;
+height:3%;
+position: relative;
+top: -19rem;
+left: 31.5%;
+display:none;
+}

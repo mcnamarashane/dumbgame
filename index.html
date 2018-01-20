@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <title>Secret Hitler for the boys</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="icon" type="image/png" href="hitlerhuy.PNG">
+  </head>
+  <body>
+  <nav class="navbar navbar-inverse navbar-static-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html" id=sh>Secret Hitler! Not for mobile, i'm lazy</a>
+          <button type="button" class="btn join" id="joinbtn">Join</button>
+          <p id="players">Players: </p>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid board">
+  <div class="row libboards">
+    <div class="col-md-8 lib">
+      <img src="lib.jpg" id="libboard">
+      <img src="libcard.png" id="libcardpile">
+      <img src="libcard.png" id="libcard1">
+      <img src="libcard.png" id="libcard2">
+      <img src="libcard.png" id="libcard3">
+      <img src="libcard.png" id="libcard4">
+      <img src="libcard.png" id="libcard5">
+  </div>
+</div>
+    <div class="row fashboards">
+      <div class="col-md-8 fash">
+        <img src="fash.png" id="fashboard">
+        <img src="fashcard.png" id="fashcardpile">
+        <img src="fashcard.png" id="fashcard1">
+        <img src="fashcard.png" id="fashcard2">
+        <img src="fashcard.png" id="fashcard3">
+        <img src="fashcard.png" id="fashcard4">
+        <img src="fashcard.png" id="fashcard5">
+        <img src="fashcard.png" id="fashcard6">
+      </div>
+  </div>
+  <div class="row plays">
+    <div class="col-md-8 players">
+    </div>
+</div>
+<script>
+var players=0;
+var player1;
+var player2;
+var player3;
+var player4;
+var player5;
+var player6;
+var player7;
+var player8;
+var player9;
+var player10;
+var lib;
+var hitler;
+var fascist;
+
+ document.getElementById('joinbtn').addEventListener('click', function() {
+   if(players===0){
+     document.getElementById("players").innerHTML = "Players:1";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===1){
+     document.getElementById("players").innerHTML = "Players:2";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===2){
+     document.getElementById("players").innerHTML = "Players:3";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===3){
+     document.getElementById("players").innerHTML = "Players:4";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===4){
+     document.getElementById("players").innerHTML = "Players:5";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+  else if(players===5){
+     document.getElementById("players").innerHTML = "Players:6";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+  else if(players===6){
+     document.getElementById("players").innerHTML = "Players:7";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===7){
+     document.getElementById("players").innerHTML = "Players:8";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===8){
+     document.getElementById("players").innerHTML = "Players:9";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+   else if(players===9){
+     document.getElementById("players").innerHTML = "Players:10";
+     players++;
+     document.getElementById("joinbtn").style.display = "none";
+   }
+
+ });
+</script>
+</body>
+</html>
